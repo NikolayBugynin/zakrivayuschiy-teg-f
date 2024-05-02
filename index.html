@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="color-scheme" content="dark light" />
     <title>Закрывающий тег</title>
+
+    <link rel="icon" href="svg/favicon.ico" sizes="any" />
+    <link rel="icon" href="svg/favicon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="svg/favicon.png" />
+
     <link rel="stylesheet" href="./fonts/fonts.css" />
     <link rel="stylesheet" href="./styles/variables.css" />
     <link rel="stylesheet" href="./styles/globals.css" />
@@ -16,8 +21,8 @@
 
   <body class="page">
     <header class="header border content-width">
-      <h1 class="header__heading">&lt;/HTML&gt;</h1>
-      <h2 class="header__descrription">закрывающий тег</h2>
+      <a class="header__logo">&lt;/HTML&gt;</a>
+      <h1 class="header__descrription">закрывающий тег</h1>
       <nav class="theme-menu header__theme-menu">
         <!-- Не меняйте разметку этого списка, иначе скрипты перестанут работать -->
         <ul class="theme-menu__list">
@@ -47,13 +52,13 @@
     <main class="card__container content-width">
       <ul class="card__list">
         <li class="card__list__item border">
-          <h3 class="card__title">
+          <h2 class="card__title">
             Фритрек и нулевой спринт: Подготовка к работе
-          </h3>
+          </h2>
           <div class="card__image-container">
-            <span class="image__caption"></span>
+            <span class="image__watermark">&lt;/HTML&gt;</span>
             <img
-              class="card__image"
+              class="card__image dark-filter"
               loading="lazy"
               src="./images/sprint-0.png"
               alt="мультяшный микроавтобус на фоне ночного неба и гор, картинка представлена в виде пиксельного изображения в стиле компьютерных игр середины 90х"
@@ -70,15 +75,15 @@
             </p>
           </div>
           <div class="card__buttons">
-            <button class="card__icon-button button">
+            <button type="button" class="card__icon-button">
               <svg
+                aria-hidden="true"
                 class="like-icon"
                 width="39"
                 height="36"
                 viewBox="0 0 39 36"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
-                class
               >
                 <g class="heart">
                   <path
@@ -106,17 +111,17 @@
                 />
               </svg>
             </button>
-            <button class="button card__like-button border">
+            <button type="button" class="button card__like-button border">
               <span class="button__text">Like</span>
             </button>
           </div>
         </li>
         <li class="card__list__item border">
-          <h3 class="card__title">1 спринт: Я — чистый лист</h3>
+          <h2 class="card__title">1 спринт: Я — чистый лист</h2>
           <div class="card__image-container">
-            <span class="image__caption"></span>
+            <span class="image__watermark">&lt;/HTML&gt;</span>
             <img
-              class="card__image"
+              class="card__image light-filter"
               loading="lazy"
               src="./images/spint-1.1.png"
               alt="мультяшный микроавтобус на фоне ночного неба и гор, картинка представлена в виде пиксельного изображения в стиле компьютерных игр середины 90х"
@@ -135,15 +140,15 @@
             </p>
           </div>
           <div class="card__buttons">
-            <button class="card__icon-button">
+            <button type="button" class="card__icon-button">
               <svg
+                aria-hidden="true"
                 class="like-icon"
                 width="39"
                 height="36"
                 viewBox="0 0 39 36"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
-                class
               >
                 <g class="heart">
                   <path
@@ -171,17 +176,17 @@
                 />
               </svg>
             </button>
-            <button class="button card__like-button border">
+            <button type="button" class="button card__like-button border">
               <span class="button__text">Like</span>
             </button>
           </div>
         </li>
         <li class="card__list__item border">
-          <h3 class="card__title">1 спринт: А если не получится?</h3>
+          <h2 class="card__title">1 спринт: А если не получится?</h2>
           <div class="card__image-container">
-            <span class="image__caption"></span>
+            <span class="image__watermark">&lt;CSS&gt;</span>
             <img
-              class="card__image"
+              class="card__image coloring-filter"
               loading="lazy"
               src="./images/spint-1.2.png"
               alt="мультяшный микроавтобус на фоне ночного неба и гор, картинка представлена в виде пиксельного изображения в стиле компьютерных игр середины 90х"
@@ -198,15 +203,15 @@
             </p>
           </div>
           <div class="card__buttons">
-            <button class="card__icon-button">
+            <button type="button" class="card__icon-button">
               <svg
+                aria-hidden="true"
                 class="like-icon"
                 width="39"
                 height="36"
                 viewBox="0 0 39 36"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
-                class
               >
                 <g class="heart">
                   <path
@@ -234,17 +239,17 @@
                 />
               </svg>
             </button>
-            <button class="button card__like-button border">
+            <button type="button" class="button card__like-button border">
               <span class="button__text">Like</span>
             </button>
           </div>
         </li>
         <li class="card__list__item border">
-          <h3 class="card__title">2 спринт: Погоня за идеалом</h3>
+          <h2 class="card__title">2 спринт: Погоня за идеалом</h2>
           <div class="card__image-container">
-            <span class="image__caption"></span>
+            <span class="image__watermark">&lt;desigions&gt;</span>
             <img
-              class="card__image"
+              class="card__image sepia-filter"
               loading="lazy"
               src="./images/sprint-2.1.png"
               alt="мультяшный микроавтобус на фоне ночного неба и гор, картинка представлена в виде пиксельного изображения в стиле компьютерных игр середины 90х"
@@ -263,15 +268,15 @@
             </p>
           </div>
           <div class="card__buttons">
-            <button class="card__icon-button">
+            <button type="button" class="card__icon-button">
               <svg
+                aria-hidden="true"
                 class="like-icon"
                 width="39"
                 height="36"
                 viewBox="0 0 39 36"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
-                class
               >
                 <g class="heart">
                   <path
@@ -299,17 +304,17 @@
                 />
               </svg>
             </button>
-            <button class="button card__like-button border">
+            <button type="button" class="button card__like-button border">
               <span class="button__text">Like</span>
             </button>
           </div>
         </li>
         <li class="card__list__item border">
-          <h3 class="card__title">2 спринт: О тех, кто рядом</h3>
+          <h2 class="card__title">2 спринт: О тех, кто рядом</h2>
           <div class="card__image-container">
-            <span class="image__caption"></span>
+            <span class="image__watermark">&lt;care&gt;</span>
             <img
-              class="card__image"
+              class="card__image vampire-filter"
               loading="lazy"
               src="./images/sprint-2.2.png"
               alt="мультяшный микроавтобус на фоне ночного неба и гор, картинка представлена в виде пиксельного изображения в стиле компьютерных игр середины 90х"
@@ -329,15 +334,15 @@
             </p>
           </div>
           <div class="card__buttons">
-            <button class="card__icon-button">
+            <button type="button" class="card__icon-button">
               <svg
+                aria-hidden="true"
                 class="like-icon"
                 width="39"
                 height="36"
                 viewBox="0 0 39 36"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
-                class
               >
                 <g class="heart">
                   <path
@@ -365,17 +370,17 @@
                 />
               </svg>
             </button>
-            <button class="button card__like-button border">
+            <button type="button" class="button card__like-button border">
               <span class="button__text">Like</span>
             </button>
           </div>
         </li>
         <li class="card__list__item border">
-          <h3 class="card__title">3 спринт: Обходные стратегии</h3>
+          <h2 class="card__title">3 спринт: Обходные стратегии</h2>
           <div class="card__image-container">
-            <span class="image__caption"></span>
+            <span class="image__watermark">&lt;support&gt;</span>
             <img
-              class="card__image"
+              class="card__image saturate-filter"
               loading="lazy"
               src="./images/sprint-3.1.png"
               alt="мультяшный микроавтобус на фоне ночного неба и гор, картинка представлена в виде пиксельного изображения в стиле компьютерных игр середины 90х"
@@ -392,15 +397,15 @@
             </p>
           </div>
           <div class="card__buttons">
-            <button class="card__icon-button">
+            <button type="button" class="card__icon-button">
               <svg
+                aria-hidden="true"
                 class="like-icon"
                 width="39"
                 height="36"
                 viewBox="0 0 39 36"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
-                class
               >
                 <g class="heart">
                   <path
@@ -428,17 +433,17 @@
                 />
               </svg>
             </button>
-            <button class="button card__like-button border">
+            <button type="button" class="button card__like-button border">
               <span class="button__text">Like</span>
             </button>
           </div>
         </li>
         <li class="card__list__item border">
-          <h3 class="card__title">3 спринт: Когда опускаются руки</h3>
+          <h2 class="card__title">3 спринт: Когда опускаются руки</h2>
           <div class="card__image-container">
-            <span class="image__caption"></span>
+            <span class="image__watermark">&lt;lifes-style: none;&gt;</span>
             <img
-              class="card__image"
+              class="card__image low-contrast-filter"
               loading="lazy"
               src="./images/sprint-3.2.png"
               alt="мультяшный микроавтобус на фоне ночного неба и гор, картинка представлена в виде пиксельного изображения в стиле компьютерных игр середины 90х и специально размыта"
@@ -457,15 +462,15 @@
             </p>
           </div>
           <div class="card__buttons">
-            <button class="card__icon-button">
+            <button type="button" class="card__icon-button">
               <svg
+                aria-hidden="true"
                 class="like-icon"
                 width="39"
                 height="36"
                 viewBox="0 0 39 36"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
-                class
               >
                 <g class="heart">
                   <path
@@ -493,17 +498,17 @@
                 />
               </svg>
             </button>
-            <button class="button card__like-button border">
+            <button type="button" class="button card__like-button border">
               <span class="button__text">Like</span>
             </button>
           </div>
         </li>
         <li class="card__list__item border">
-          <h3 class="card__title">«Сейчас я здесь»</h3>
+          <h2 class="card__title">«Сейчас я здесь»</h2>
           <div class="card__image-container">
-            <span class="image__caption"></span>
+            <span class="image__watermark">&lt;experience&gt;</span>
             <img
-              class="card__image"
+              class="card__image invert-filter"
               loading="lazy"
               src="./images/sprint-current.png"
               alt="мультяшный микроавтобус на фоне ночного неба и гор, картинка представлена в виде пиксельного изображения в стиле компьютерных игр середины 90х"
@@ -524,15 +529,15 @@
             </p>
           </div>
           <div class="card__buttons">
-            <button class="card__icon-button">
+            <button type="button" class="card__icon-button">
               <svg
+                aria-hidden="true"
                 class="like-icon"
                 width="39"
                 height="36"
                 viewBox="0 0 39 36"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
-                class
               >
                 <g class="heart">
                   <path
@@ -560,22 +565,25 @@
                 />
               </svg>
             </button>
-            <button class="button card__like-button border">
+            <button type="button" class="button card__like-button border">
               <span class="button__text">Like</span>
             </button>
           </div>
         </li>
       </ul>
-    </main>
-
-    <footer class="footer content-width">
       <button
         type="button"
         class="button save-button border"
         onclick="window['dialog-id'].showModal()"
         aria-controls="dialog-id"
       >
-        <svg class="save-icon" viewBox="0 0 39 39" width="21" height="21">
+        <svg
+          aria-hidden="true"
+          class="save-icon"
+          viewBox="0 0 39 39"
+          width="21"
+          height="21"
+        >
           <use href="./svg/floppy.svg#save-icon"></use>
         </svg>
         <span class="button__text">Сохранить на память</span>
@@ -583,24 +591,26 @@
       <dialog class="dialog" id="dialog-id">
         <div class="dialog__heading">
           <svg
+            aria-hidden="true"
             class="button__inner-icon dialog-icon"
             viewBox="0 0 39 39"
-            width="28"
-            height="28"
+            width="39"
+            height="39"
           >
             <use href="./svg/floppy.svg#save-icon" />
           </svg>
           <h2 class="dialog__title">Вставьте дискету, чтобы продолжить</h2>
         </div>
         <button
-          class="button dialog__button border"
           type="button"
+          class="button dialog__button border"
           onclick="window['dialog-id'].close()"
         >
           ОК
         </button>
       </dialog>
-    </footer>
+    </main>
+
     <script src="./scripts/like.js"></script>
   </body>
 </html>
