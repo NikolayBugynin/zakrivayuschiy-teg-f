@@ -27,7 +27,7 @@
 
 **Проект**
 
-https://github.com/NikolayBugynin/slozhno-sosredotochitsya.git
+https://github.com/NikolayBugynin/zakrivayuschiy-teg-f.git
 
 **GitHub Pages**
 https://nikolaybugynin.github.io/zakrivayuschiy-teg-f/
