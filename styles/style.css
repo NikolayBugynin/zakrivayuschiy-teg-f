@@ -246,6 +246,7 @@
   border: none;
   background-color: transparent;
   transition: border-color 0.3s ease;
+  cursor: pointer;
 }
 
 .card__icon-button:focus {
@@ -353,8 +354,8 @@
   }
 
   .dialog {
-    padding-block-start: 40px;
-    padding-block-end: 40px;
+    padding-inline-start: 40px;
+    padding-inline-end: 40px;
   }
 
   .image__watermark {
